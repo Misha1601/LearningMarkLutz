@@ -1,0 +1,19 @@
+bob
+namerecsep'Bob Smith'
+agerecsep'42'
+payrecsep30000
+jobrecsep'dev'
+endrec
+sue
+namerecsep'Sue Jones'
+agerecsep'45'
+payrecsep40000
+jobrecsep'hdw'
+endrec
+tom
+namerecsep'Tom'
+agerecsep'50'
+payrecsep0
+jobrecsep'None'
+endrec
+enddb

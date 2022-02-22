@@ -1,0 +1,9 @@
+/home/misha/Python/System/Tester
+/home/misha/Python/System/Tester/Scripts
+[argv]
+./Scripts/test-basic-args.py
+-command
+-line
+--stuff
+[interaction]
+Enter text:EggsEggsEggsEggsEggsEggsEggsEggsEggsEggs
