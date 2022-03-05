@@ -1,6 +1,6 @@
 import sys
 from tkinter import Tk, Button
-#tkinter.NoDefaultRoot()
+# tkinter.NoDefaultRoot()
 
 win1 = Tk()
 win2 = Tk()

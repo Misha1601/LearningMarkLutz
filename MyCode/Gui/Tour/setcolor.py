@@ -4,7 +4,7 @@ from tkinter.colorchooser import askcolor
 def setBgColor():
     (triple, hexstr) = askcolor()
     if hexstr:
-        print(hexstr)
+        print(triple, hexstr)
         push.config(bg=hexstr)
 
 root = Tk()
