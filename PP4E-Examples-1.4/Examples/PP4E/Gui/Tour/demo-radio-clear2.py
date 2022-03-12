@@ -31,7 +31,11 @@ def ondel():
     global var
     del var                     # or var.__del__() to trigger repeatedly
 
-frm = Frame(); frm.pack(); radio1(frm)
-frm = Frame(); frm.pack(); radio2(frm)
+frm = Frame()
+frm.pack()
+radio1(frm)
+frm = Frame()
+frm.pack(); 
+radio2(frm)
 Button(root, text='del', command=ondel).pack()
 root.mainloop()

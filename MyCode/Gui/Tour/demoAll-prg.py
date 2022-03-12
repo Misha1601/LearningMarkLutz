@@ -12,7 +12,7 @@ from launchmodes import PortableLauncher
 demoModules = ['demoDlg', 'demoRadio', 'demoCheck', 'demoScale']
 
 for demo in demoModules:
-    PortableLauncher(demo, demo+'.py')()
+    PortableLauncher(demo, demo + '.py')()
 
 root = Tk()
 root.title('Processes')

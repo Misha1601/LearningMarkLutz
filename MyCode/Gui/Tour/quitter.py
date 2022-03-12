@@ -9,7 +9,7 @@ from tkinter.messagebox import askokcancel
 
 class Quitter(Frame):
     def __init__(self, parent=None):
-        Frame.__init__(self, parent)
+        Frame.__init__(self)
         self.pack()
         widget = Button(self, text='Выйти', command=self.quit)
         widget.pack(side=LEFT, expand=YES, fill=BOTH)

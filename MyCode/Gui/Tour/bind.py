@@ -1,5 +1,6 @@
 from tkinter import *
 
+
 def showPosEvent(event):
     print('Widget=%s X=%s Y=%s' % (event.widget, event.x, event.y))
 

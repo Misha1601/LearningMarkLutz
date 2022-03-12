@@ -2,7 +2,8 @@
 
 from tkinter import *
 from dialogTable import demos
-from quitter  import Quitter
+from quitter import Quitter
+
 
 class Demo(Frame):
     def __init__(self, parent=None, **options):
@@ -27,8 +28,6 @@ class Demo(Frame):
     def report(self):
         print(self.var.get())
 
+
 if __name__ == '__main__':
     Demo().mainloop()
-
-    
-        

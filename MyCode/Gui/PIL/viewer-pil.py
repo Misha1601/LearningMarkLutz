@@ -1,12 +1,12 @@
 """
 отображает изображение с помощью альтернативного объекта из пакета PIL
 поддерживает множество форматов изображений; предварительно установите пакет
-PIL: поместите его в каталог Lib\site-packages
+PIL: поместите его в каталог Lib\\site-packages
 """
 
 import os, sys
 from tkinter import *
-from PIL import Image
+from PIL.ImageTk import PhotoImage
 
 imgdir = 'images'
 imgfile = 'florida-2009-1.jpg'
@@ -16,7 +16,7 @@ imgpath = os.path.join(imgdir, imgfile)
 
 win = Tk()
 win.title(imgfile)
-imgobj = Image.open('florida-2009-1.jpg')
+imgobj = PhotoImage(file=imgpath)
 Label(win, image=imgobj).pack()
 win.mainloop()
 # print(imgobj.width(), imgobj.height())

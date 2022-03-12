@@ -25,9 +25,9 @@ def makeform(root, fields):
     return entries
 if __name__ == '__main__':
     root = Tk()
-    ents = makeform(root, fields)
-    root.bind('<Return>', (lambda event: fetch(ents)))
-    Button(root, text='fetch',
-           command=(lambda: fetch(ents))).pack(side=LEFT)
+    makeform(root, fields)
+    #root.bind('<Return>', (lambda event: fetch(ents)))
+    #Button(root, text='fetch',
+    #       command=(lambda: fetch(ents))).pack(side=LEFT)
     Quitter(root).pack(side=RIGHT)
     root.mainloop()
